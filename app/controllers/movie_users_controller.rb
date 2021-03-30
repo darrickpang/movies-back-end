@@ -37,6 +37,6 @@ class MovieUsersController < ApplicationController
 
     private
     def movie_user_params
-        params.require(:movie_user).permit(:user_id, :movie_id)
+        params.require(:movie_user).permit(:movie_name, :user_id)
     end
 end
