@@ -1,3 +1,3 @@
 class MovieUserSerializer < ActiveModel::Serializer
-  attributes :id, :user_id, :movie_id
+  attributes :id, :movie_name, :user_id
 end
